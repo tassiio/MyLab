@@ -78,7 +78,7 @@ void a_prog(int f, int kolvo, int raznost)
 void sum (int first, int kol, int razn)
 {
     printf("\nsumma = %d\n", (((2*first + (kol-1)*razn)*kol)/2));
-    printf("summa the last + 1 = %d\n", 3*first+3*kol*razn);
+    printf("summa the last + 1 = %d\n", 3*first+3*kol*razn-3*razn);
 }
 int main()
 {
